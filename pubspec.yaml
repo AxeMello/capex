@@ -1,0 +1,43 @@
+name: capex
+description: "scan to view in sheets!"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.11.0
+  google_ml_kit: ^0.20.0
+  http: ^1.2.1
+  googleapis: ^15.0.0
+  googleapis_auth: ^2.0.0
+  intl: ^0.20.1
+  webview_flutter: ^4.10.0
+  url_launcher: ^6.3.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  assets:
+    - assets/service_account.json
+    - assets/icon.png
+
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon.png
+  adaptive_icon_background: "#D4F9FF"
+  adaptive_icon_foreground: assets/icon.png
