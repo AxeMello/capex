@@ -5,7 +5,7 @@ import 'package:googleapis_auth/auth_io.dart';
 
 /// Public spreadsheet ID
 const String spreadsheetId =
-    '1ZCynptiGeYfjvmk5OIzjOAf9JFxcL249gORg-Kui_eA';
+    '###############';
 
 const List<String> sheetsScopes = [
   sheets.SheetsApi.spreadsheetsScope,
